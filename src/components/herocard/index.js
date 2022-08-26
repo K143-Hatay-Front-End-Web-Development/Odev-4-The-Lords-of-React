@@ -20,7 +20,7 @@ function Herocard(props) {
 
   return ( // =====> render card elements
       <div onClick={() => handleclick(props.item)} className={style.card}>
-        <img className={style.card_image} src={props.item.thumbnail.path + "/portrait_incredible.jpg"} alt={props.item.name} ></img>
+        <img className={style.card_image} src={props.item.thumbnail.path + "/portrait_incredible." + props.item.thumbnail.extension} alt={props.item.name} ></img>
         <h2 className={style.name}>{props.item.name}</h2>
       </div>
   )
