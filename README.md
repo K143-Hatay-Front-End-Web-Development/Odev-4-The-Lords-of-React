@@ -1,6 +1,6 @@
 # Marvel Hero App
 # Live
-[Marvel App]("https://react-marvelapi.netlify.app")
+[Marvel App](https://react-marvelapi.netlify.app)
 
 ## Team Members
 
