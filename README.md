@@ -1,10 +1,31 @@
-# Odev-4
+# Marvel Hero App
+# Live
+[Marvel App]("https://react-marvelapi.netlify.app")
 
-## Grup Üyeleri
-- [Ad] [Soyad]
-- [Ad] [Soyad]
+## Team Members
 
-## İçerik
+[Ahmet Salih Karagöz](https://github.com/krgzsalih)
 
--[React ile Marvel App Web Uygulaması.pdf](https://github.com/K143-Hatay-Front-End-Web-Development/Odev-4/files/9428469/React.ile.Marvel.App.Web.Uygulamasi.pdf)
-  
+[Nurhak Keskin](https://github.com/sharp3614)
+
+[Vedat Eroğlu](https://github.com/vkeycode)
+## Techs
+- Axios
+- Router
+- Navigate
+- FindBottom(Our own Hook)
+- SASS
+- Context API
+## Scripts
+ ### package install
+ ```
+ npm install
+ ```
+ ### run project
+ ```
+ npm start
+ ```
+ ### build project
+ ```
+ npm run build
+ ```
