@@ -16,6 +16,9 @@
 - FindBottom(Our own Hook)
 - SASS
 - Context API
+
+![marvel](/public/marvel.gif)
+
 ## Scripts
  ### package install
  ```
