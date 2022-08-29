@@ -16,6 +16,8 @@
         -moz-box-shadow: inset -1px 58px 17px 2px rgba(240, 240, 240, 0.703);
         box-shadow: inset -1px 58px 17px 2px rgba(240, 240, 240, 0.703);
         overflow: visible;
+        text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5), 3px 0 3px #ff002b, 5px 0 3px #800015,
+                    6px 2px 3px rgba(77, 0, 13, 0.5), 6px 0 9px #ff5500, -40px -14px 1px rgba(255, 255, 255, 0);
     }
     &::after {
         content: "";
@@ -46,7 +48,7 @@
         box-shadow: inset 16px -16px 17px -14px rgba(240, 240, 240, 0.621);
     }
     .card_image {
-        width: 230px;
+        width: 100%;
     }
     .name {
         text-align: center;

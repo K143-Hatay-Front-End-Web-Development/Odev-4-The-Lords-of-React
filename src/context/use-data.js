@@ -9,7 +9,6 @@ const Provider = ({children}) => {
     const [heroImage, setHeroImage] = useState();
     const [heroComics, setHeroComics] = useState()
     const [description, setDescription] = useState()
-
     return (
         <DataContext.Provider
             value={{

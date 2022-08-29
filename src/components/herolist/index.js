@@ -17,14 +17,13 @@ function Herolist() {
   let Bottom = useFindBottom()
   
   useEffect(() => {
-
     const DataRequest = async () => {
       const result = await axios(`${BASE_URL}${CLIENT.content}${CLIENT.timestamp}&limit=30&offset=${offset}&apikey=${PUBLIC_KEY}&hash=${HASH}`)
-      setAllHero( allHero.concat(result.data.data.results)) // ===> set Allhero data 
+      setAllHero(allHero.concat(result.data.data.results)) // ===> set Allhero data 
       setLoading(false)
     }
     if(Bottom === true){ // =====> if scroll end is found new list will be added and after new request on API 
-      setOffsett(() => offset + 30)
+      setOffsett(offset + 30)
       setListLoading(true)
       DataRequest()
     }
